@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-from streamlit_js_eval import streamlit_js_eval
 
 if "start" not in st.session_state:
     st.session_state.start = time.time()
